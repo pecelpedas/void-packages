@@ -1,0 +1,14 @@
+# Template file for 'pdfarranger'
+pkgname=pdfarranger
+version=1.7.1
+revision=1
+build_style=python3-module
+hostmakedepends="python3-setuptools"
+makedepends="python3-distutils-extra intltool"
+depends="python3-pikepdf python3-dateutil"
+short_desc="Pikepdf frontend"
+maintainer="Pecel Pedas <pecel.pedas1@gmail.com>"
+license="GPL-3.0-or-later"
+homepage="https://github.com/pdfarranger/pdfarranger"
+distfiles="https://github.com/pdfarranger/pdfarranger/archive/refs/tags/${version}.tar.gz"
+checksum="a984effd38fae13acd1362886630588911a29f537f2039ce16f46cb08ba5532c"
